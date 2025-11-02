@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shyju M | Lead Software Engineer, App Developer, Content Creator</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Personal portfolio of Shyju M, a tech professional specializing in Golang, Flutter, and passive income strategies through app development. Based in Kerala, India." />
+    <meta name="keywords" content="Shyju M, Lead Software Engineer, Passive Income Developer, App Developer Kerala, Flutter Firebase Developer, Tech Content Creator, Golang, Python" />
+    <meta name="author" content="Shyju M" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shyjutalks.com/" />
+    <meta property="og:title" content="Shyju M | Lead Software Engineer, App Developer, Content Creator" />
+    <meta property="og:description" content="Explore the work, projects, and content of Shyju M, a passionate developer and creator building a brand around tech and passive income." />
+    <meta property="og:image" content="https://picsum.photos/seed/shyju-og/1200/630" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.shyjutalks.com/" />
+    <meta property="twitter:title" content="Shyju M | Lead Software Engineer, App Developer, Content Creator" />
+    <meta property="twitter:description" content="Explore the work, projects, and content of Shyju M, a passionate developer and creator building a brand around tech and passive income." />
+    <meta property="twitter:image" content="https://picsum.photos/seed/shyju-og/1200/630" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background-color: #0a192f;
+        color: #ccd6f6;
+      }
+      .glass-card {
+        background: rgba(17, 34, 64, 0.6);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(45, 212, 191, 0.1);
+      }
+      .gradient-text {
+        background: linear-gradient(90deg, #38bdf8, #818cf8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .animated-gradient-text {
+        background-size: 200% 200%;
+        background-image: linear-gradient(to right, #67e8f9, #818cf8, #d8b4fe, #818cf8, #67e8f9);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: gradient-animation 5s ease infinite;
+      }
+      @keyframes gradient-animation {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+      
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .fade-in-up {
+        opacity: 0;
+        animation: fadeInUp 0.8s ease-out forwards;
+      }
+
+      /* Animated blob background for hero */
+      .blob-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow: hidden;
+        z-index: 0;
+      }
+      .blob {
+        position: absolute;
+        border-radius: 50%;
+        filter: blur(80px);
+        opacity: 0.3;
+      }
+      .blob1 {
+        width: 400px;
+        height: 400px;
+        background: #38bdf8;
+        top: -150px;
+        left: -150px;
+        animation: move 25s infinite alternate;
+      }
+      .blob2 {
+        width: 300px;
+        height: 300px;
+        background: #818cf8;
+        bottom: -100px;
+        right: -100px;
+        animation: move 30s infinite alternate;
+      }
+      @keyframes move {
+        from {
+          transform: translate(0, 0) rotate(0deg);
+        }
+        to {
+          transform: translate(100px, 50px) rotate(180deg);
+        }
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.0",
+    "vite": "https://aistudiocdn.com/vite@^7.1.12",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="font-sans antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
